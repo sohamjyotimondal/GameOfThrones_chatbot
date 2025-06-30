@@ -1,4 +1,4 @@
-# GitHubQuotes Bot: Game of Thrones Chatbot
+# A GameOfThrones chatbot 
 
 A Streamlit-powered chatbot packed with the wisdom of Westeros that responds in the style of Game of Thrones characters using real quotes from the series. Quotes are sourced from [shevabam/game-of-thrones-quotes-api](https://github.com/shevabam/game-of-thrones-quotes-api/blob/master/datas.json) .
 
