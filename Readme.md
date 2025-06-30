@@ -21,8 +21,8 @@ Ask for relationship advice at your own discretion—the lords and ladies of Wes
 | It's so cold         | Winter is coming.                         |
 | I lost in chess      | When you play the game of chess, you win or you die. There is no middle ground. |
 | There are so many ants | Burn them all.                          |
-
-graph LR
+```mermaid
+flowchart LR
     A[User Input] --> B[Streamlit Frontend]
     B --> C[QuoteRAGEngine]
     C --> D{Check Index}
@@ -36,7 +36,7 @@ graph LR
     J --> K[Generate Response]
     K --> L[Save Chat History]
     L --> M[Display Response in Streamlit]
-
+```
 
 ## Chat History Features
 1. Persistent Conversations: Chat history is saved and restored between sessions
